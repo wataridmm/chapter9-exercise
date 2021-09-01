@@ -57,5 +57,21 @@ main {
 }
 .title {
   margin: 15px 0 5px;
-  
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    width: 100%;
+  }
+  main {
+    display: block;
+  }
+  .contents-box {
+    width: 90%;
+    margin: 20px 0 20px;
+  }
+
+  .contents-box:last-child {
+    margin-bottom: 50px;
+  }
 }
