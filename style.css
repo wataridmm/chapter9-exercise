@@ -60,18 +60,20 @@ main {
 }
 
 @media screen and (max-width: 768px) {
-  header {
-    width: 100%;
-  }
   main {
+    width: 100%;
     display: block;
   }
   .contents-box {
     width: 90%;
     margin: 20px 0 20px;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .contents-box:last-child {
     margin-bottom: 50px;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
